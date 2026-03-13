@@ -1,0 +1,10 @@
+
+#Name of the Workflow
+name: Potato-worrier
+on: push
+
+jobs:
+  test:
+    runs-on: self-hosted
+    steps:
+      - run: echo "Only Task, No Bakwas."
