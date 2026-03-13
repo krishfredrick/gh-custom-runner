@@ -1,7 +1,10 @@
 
 #Name of the Workflow
 name: Potato-worrier
-on: push
+on: 
+  - push
+  - workflow_dispatch
+  
 
 jobs:
   test:
